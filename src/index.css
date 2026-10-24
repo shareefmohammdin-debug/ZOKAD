@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+}
+
+
+/* تخصيص عرض شريط التمرير */
+::-webkit-scrollbar {
+  width: 8px; /* عرض الشريط العمودي */
+  height: 8px; /* ارتفاع الشريط الأفقي */
+}
+
+/* خلفية مسار شريط التمرير (المكان الذي يتحرك فيه الشريط) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+
+/* الجزء المتحرك من شريط التمرير (لون الشريط نفسه) */
+::-webkit-scrollbar-thumb {
+  background: #3F41A6; /* لون متناسق مع أزرار موقعك */
+  border-radius: 10px;
+}
+
+/* لون الشريط عند المرور عليه بالفأرة */
+::-webkit-scrollbar-thumb:hover {
+  background: #343684; 
+}
