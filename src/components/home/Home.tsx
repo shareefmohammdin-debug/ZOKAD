@@ -1,11 +1,11 @@
-import c0 from '../../assets/camera/camera0.jpg'
+import c4 from '../../assets/camera/camera4.jpg'
 import c3 from '../../assets/camera/camera3.jpg'
 import c2 from '../../assets/camera/camera2.jpg'
 import {ChevronRight} from 'lucide-react'
 
 export default function Home() {
     return (
-        <div className='flex items-center justify-center px-4 my-14'>
+        <div className='flex items-center justify-center px-4 my-24'>
 
             <div className='flex flex-col lg:flex-row items-center justify-center gap-1 w-full max-w-6xl p-0'>
 
@@ -29,7 +29,7 @@ export default function Home() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full lg:w-[50%] py-4">
                     <img
-                        src={c0}
+                        src={c4}
                         alt="Main Camera"
                         className="col-span-1 sm:col-span-2 w-full h-56 sm:h-64 object-cover rounded-2xl shadow-md"
                     />
