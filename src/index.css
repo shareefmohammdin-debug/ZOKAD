@@ -6,6 +6,9 @@
   --font-sans: "Poppins", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 /* تخصيص عرض شريط التمرير */
 ::-webkit-scrollbar {

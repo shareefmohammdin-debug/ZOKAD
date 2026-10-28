@@ -6,6 +6,7 @@ import Experiments from './components/Experiments/Experiments'
 import Flowers from './components/Flowers/Flowers'
 import OurWorks from './components/OurWorks/OurWorks'
 import Footer from './components/Footer/Footer'
+import ScrollButton from './components/ScrollButton/ScrollButton'
 import './App.css'
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <Flowers/>
       <OurWorks/>
       <Footer/>
+      <ScrollButton />
     </div>
   )
 }

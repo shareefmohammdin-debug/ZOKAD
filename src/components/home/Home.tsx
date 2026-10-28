@@ -5,7 +5,7 @@ import {ChevronRight} from 'lucide-react'
 
 export default function Home() {
     return (
-        <div className='flex items-center justify-center px-4 my-24'>
+        <div id='home' className='flex items-center justify-center px-4 my-24'>
 
             <div className='flex flex-col lg:flex-row items-center justify-center gap-1 w-full max-w-6xl p-0'>
 

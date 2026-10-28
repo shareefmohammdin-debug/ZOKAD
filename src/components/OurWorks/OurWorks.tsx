@@ -14,7 +14,7 @@ import p12 from '../../assets/diverse/15.jpg'
 
 export default function OurWorks(){
     return(
-        <div className="my-10 p-2 flex justify-center items-center">
+        <div id='OurWorks' className="my-10 p-2 flex justify-center items-center">
             
             <div className='p-2  w-[90%] sm:w-[80%] lg:w-[70%]'>
                 {/* texts */}

@@ -3,7 +3,7 @@ import {ChevronRight} from 'lucide-react'
 
 export default function Footer(){
     return(
-        <div className='p-2 mt-25 mb-8 flex flex-col gap-16 justify-center items-center'>
+        <div id='footer' className='p-2 mt-25 mb-8 flex flex-col gap-16 justify-center items-center'>
             <div className='sm:w-[80%] lg:w-[70%] w-[95%] bg-[#431898] p-8 py-12 sm:py-15 lg:py-20 flex flex-col rounded-4xl gap-8'>
                 <h1 className='text-4xl font-bold lg:w-[70%] text-white'>Get Started With Us</h1>
                 <p className='text-white text-[13.5px] lg:w-[60%] w-[80%]'>Your ceremony & reception venues, yourvision, your dress, your colours and anythingelse you would like to share with us. </p>

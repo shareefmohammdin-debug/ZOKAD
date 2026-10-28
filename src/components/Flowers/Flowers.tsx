@@ -8,7 +8,7 @@ import { ChevronRight } from 'lucide-react'
 
 export default function Flowers() {
     return (
-        <div className='mb-20 lg:p-4  lg:pl-35'>
+        <div id='Flowers' className='mb-20 lg:p-4  lg:pl-35'>
             {/* flower page */}
             <div className=''>
                 {/* text and button */}

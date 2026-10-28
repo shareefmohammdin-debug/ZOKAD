@@ -9,7 +9,7 @@ import c10 from '../../assets/camera/camera10.jpg'
 
 export default function Experiments() {
     return (
-        <div className="my-20 relative ">
+        <div id='experiments' className="my-20 relative ">
 
             <div className="lg:mb-10 p-10 lg:w-full lg:flex lg:items-center  lg:justify-end">
                 <div className='lg:w-[35%] lg:pr-20'>
