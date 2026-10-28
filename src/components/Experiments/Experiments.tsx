@@ -22,7 +22,7 @@ export default function Experiments() {
 
             {/* images */}
             <div className='flex justify-center items-center mb-5
-                lg:absolute lg:top-[-20px] lg:left-[-120px] lg:z-50 lg:w-[70%]'>
+                lg:absolute lg:-top-2 lg:-left-24 lg:z-50 lg:w-[70%]'>
 
                 <div className='w-[95%] shadow rounded-2xl '>
                     <div className=' bg-[#cebbed25] w-full p-3 rounded-t-2xl flex justify-end items-center gap-2'>
